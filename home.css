@@ -2,18 +2,29 @@ body
 {
     margin: 0%;
 }
-::-wikibit-scrollbar{ 
-    width: 3vw;
-    border-radius:25%;
-}
-::-wikibit-scrollbar-track{
-    background-color: rgb(255, 255, 255);
-    border-radius:25%;
-}
-::-wikibit-scrollbar-thumb{
-    background-color: black;
+::-webkit-scrollbar{ 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 17px;
 }
 
+::-webkit-scrollbar-track{
+    background-color: rgb(0, 0, 0);
+    width:20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 .container
 {
     background-color: black;
@@ -30,21 +41,45 @@ body
     float: none;
 
 }
-button
+.sin
 {
-    border: none;
+   
     font-family: 'Trebuchet MS';
     background-color: transparent;
     color: white;
-    width: 15%;
-    height: 15%;
+    width: 5%;
+    height: 10%;
     margin-right:0.5% ;
     margin-top: 1%;
     margin-bottom: 1%;
-    outline-style: solid white;
+    margin-left: 1.5%;
+    border: 1px ,solid,white;
+    text-align: center;
+    font-weight: bolder;
 }
-button:hover
+.sup
 {
+    
+    font-family: 'Trebuchet MS';
+    background-color: transparent;
+    color: white;
+    width: 5%;
+    height: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 1px,solid ,white;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.sin:hover
+{
+    transition: 0.29s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.sup:hover{
     transition: 0.29s;
     cursor: pointer;
     background-color: white;
@@ -59,16 +94,22 @@ img
     padding: 0;
     border: 0;
 }
-.footer
+.low
 {
-    height: 30%;
+    height: 25vh;
     width: 100%;
     background-color: black;
     bottom: 0%;
     margin: 0%;
-    padding: 0%;
     border: 0%;
     color: white;
     font-family: 'Trebuchet MS';
+    font-weight: bolder;
     float: none;
+   transform: scale(1,1.032);
+    text-align: center;
+    
+    
+    
+    
 }
