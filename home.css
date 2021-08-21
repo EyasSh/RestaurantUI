@@ -29,13 +29,14 @@ body
 {
     background-color: black;
     display: flex;
+    padding: 8px 8px 8px 50px;
     flex-direction: row;
-    width: 100%;
-    height: 20%;
+    width: 100vw;
+    min-height: 25px;
+    height: calc(4.25vh * 1.618);
     top: 0%;
     right: 0%;
    flex-basis: auto;
-    padding: 0;
     margin: 0;
     border: 0;
     float: none;
@@ -46,14 +47,11 @@ body
    
     font-family: 'Trebuchet MS';
     background-color: transparent;
+    padding: 1.0235414534288638vh 0.5213764337851929vw 1.0235414534288638vh 0.5213764337851929vw;
     color: white;
-    width: 5%;
-    height: 10%;
-    margin-right:0.5% ;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    margin-left: 1.5%;
-    border: 1px ,solid,white;
+    margin: auto 0;
+    margin-right: 40px;
+    border: 1px solid white;
     text-align: center;
     font-weight: bolder;
 }
@@ -62,12 +60,10 @@ body
     
     font-family: 'Trebuchet MS';
     background-color: transparent;
+    padding: 1.0235414534288638vh 0.5213764337851929vw 1.0235414534288638vh 0.5213764337851929vw;
+    margin: auto 0;
     color: white;
-    width: 5%;
-    height: 10%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    border: 1px,solid ,white;
+    border: 1px solid white;
     text-align: center;
     font-weight: bolder;
     
