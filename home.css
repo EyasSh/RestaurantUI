@@ -1,6 +1,8 @@
 body
 {
     margin: 0%;
+    overflow-x: hidden;
+    
 }
 ::-webkit-scrollbar{ 
     border-top-left-radius: 20px;
@@ -92,7 +94,7 @@ img
 }
 .low
 {
-    height: 25vh;
+    height: 70vh;
     width: 100%;
     background-color: black;
     bottom: 0%;
