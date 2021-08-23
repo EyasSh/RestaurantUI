@@ -9,7 +9,7 @@ body
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 17px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track{
@@ -33,7 +33,7 @@ body
     display: flex;
     padding: 8px 8px 8px 50px;
     flex-direction: row;
-    width: 100vw;
+    width: 100.1vw;
     min-height: 25px;
     height: calc(4.25vh * 1.618);
     top: 0%;
@@ -85,7 +85,7 @@ body
 }
 img
 {
-    width:100%;
+    width:106vw;
     height: 50%;
     float: none;
     margin: 0;
@@ -95,7 +95,7 @@ img
 .low
 {
     height: 70vh;
-    width: 100%;
+    width: 106vw;
     background-color: black;
     bottom: 0%;
     margin: 0%;
